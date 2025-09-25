@@ -1,0 +1,32 @@
+# Virtual environment
+venv/
+.env
+.env.local
+.env.production
+
+# Downloads and sessions
+downloads/
+session_name.session
+bot_session.session
+*.session
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
